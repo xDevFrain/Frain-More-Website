@@ -1,0 +1,731 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Frain
+    </title>
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Frain">
+    <meta property="og:description" content="Hi, my name is Frain! You can check out more about me on my page here!">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/favicon.ico?v=1723991054">
+    <link href="https://cdn.cache.lol/profiles/themes/css/base.css?v=2024-09-10" rel="stylesheet">
+    <link href="https://cdn.cache.lol/profiles/themes/css/omglol-special.css" rel="stylesheet">
+    <style>
+
+    .the-image {
+    color: A13FF6
+    background-color: A13FF6
+    }
+   
+    .header {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 1;
+    margin: auto;
+    width: 100%;
+    background-color: #1f1f1f;
+    }
+    
+    .progress-container {
+    width: 100%;
+    height: 10px;
+    background: #4F4F4F;
+    }
+    
+    .progress-bar {
+    height: 10px;
+    background: linear-gradient(in hsl longer hue 45deg, red 0 0);
+    width: 100%;
+    }
+    
+    .alert{
+    max-width: 575px;
+    background-color: rgb(84, 100, 100);
+    padding: 25px;
+    border-radius: 25px;
+    100%,0%{
+    background-color: rgb(255,0,0);
+    }
+    8%{
+    background-color: rgb(255,127,0);
+    }
+    16%{
+    background-color: rgb(255,255,0);
+    }
+    25%{
+    background-color: rgb(127,255,0);
+    }
+    33%{
+    background-color: rgb(0,255,0);
+    }
+    41%{
+    background-color: rgb(0,255,127);
+    }
+    50%{
+    background-color: rgb(0,255,255);
+    }
+    58%{
+    background-color: rgb(0,127,255);
+    }
+    66%{
+    background-color: rgb(0,0,255);
+    }
+    75%{
+    background-color: rgb(127,0,255);
+    }
+    83%{
+    background-color: rgb(255,0,255);
+    }
+    91%{
+    background-color: rgb(255,0,127);
+    }
+    }
+    .alert {
+    animation: rainbow-bg 2.5s linear;
+    animation-iteration-count: infinite;
+    
+    .closebtn {
+    margin-left: 15px;
+    color: red;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    }
+    
+    .closebtn:hover {
+    color: green;
+    }
+    .user-drag-none {
+    user-drag: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    oncontextmenu="return false;"
+    ondragstart="return false;"
+    }
+    $ts-speed = .7s
+    body
+    height 100vh
+    display flex
+    align-items center
+    justify-content center
+    background-color #514878
+    .switch
+    position relative
+    input
+    height 100%
+    width 100%
+    position absolute
+    left 0
+    top 0
+    opacity 0
+    z-index 100
+    cursor pointer
+    label
+    height 110px
+    width 220px
+    background-color #39315a
+    border-radius 100px
+    display block
+    box-shadow: 
+      inset 0 0 20px rgba(#000,0.2),
+      inset 0 0 5px -2px rgba(#000,0.4)
+    .bulb
+      height 90px
+      width 90px
+      background-color #4a426b
+      border-radius 50%
+      position relative
+      top 10px
+      left 10px
+      display block
+      transition $ts-speed
+      box-shadow:
+        inset 0 0 1px 3px #4a426b,
+        inset 0 0 6px 8px #423963,
+        0 20px 30px -10px rgba(#000,0.4)
+      .bulb-center
+        position absolute
+        display block
+        height 36px
+        width 36px
+        background-color #5a527b
+        border-radius 50%
+        top 50%
+        left 50%
+        transition $ts-speed
+        transform translate(-50%, -50%)
+        box-shadow: 
+          inset 0 0 0 4px #635a84
+        &:after
+          content ""
+          display block
+          height 14px
+          width 14px
+          background-color #7b7394
+          border-radius 50%
+          position absolute
+          transition $ts-speed
+          top 50%
+          left 50%
+          transform translate(-50%, -50%)
+          box-shadow 0 0 2px 4px #524a73
+      .filament-1, .filament-2
+        position absolute
+        display block
+        height 35px
+        width 35px
+        border-radius 50%
+        top 50%
+        left 50%   
+        overflow hidden
+        transform translate(-50%, -50%) rotate(-45deg)
+        &:after, &:before
+          content ""
+          display block
+          height 6px
+          width 17px
+          border-radius 50%
+          border 2px solid #4a426b
+          position absolute
+          transition $ts-speed
+          top -4px
+          left -2px
+          transform rotate(-10deg)
+        &:before
+          left 15px
+          transform rotate(10deg)
+      .filament-2
+        transform translate(-50%, -50%) rotate(45deg) !important
+    .reflections
+    height 100%
+    width 100%
+    display block
+    border-radius 50%
+    overflow hidden
+    position absolute
+    z-index 90
+    perspective 70px
+    span
+    height 80px
+    width 80px
+    border-radius 50%
+    background-image linear-gradient(-135deg, transparent 10%, rgba(#fff,.3))
+    position absolute
+    left -40px
+    bottom -45px
+    &:after
+      content ""
+      display block
+      height 35px
+      width 20px
+      position absolute
+      top -36px
+      right -40px
+      border-radius 50%
+      box-shadow 4px -2px 0 -3px rgba(#fff,.4)
+      filter blur(1px)
+      transform rotate(-10deg)     
+    &:after
+    content ""
+    display block
+    height 80px
+    width 50px
+    background-image linear-gradient(80deg, rgba(#fff,.05) 45%, rgba(#fff,.5))
+    border-radius 10% 20% 50% 30% / 30% 60% 30% 40%
+    position absolute
+    transform-style: preserve-3d;
+    transform: rotateX(-25deg)  rotate(-35deg) skewx(-15deg) translate(10px, -20px)
+    top -8px
+    left -5px
+    &:before
+    content ""
+    display block
+    position absolute
+    height 10px
+    width 30px
+    background-image linear-gradient(to right, transparent, rgba(#fff,.15))
+    bottom 10px
+    right 0px
+    transform rotate(45deg)
+    .sparks
+    .spark1
+    display block
+    height 1px
+    width 1px
+    background-color #d1b82b
+    position absolute
+    right -5px
+    border-radius 50%
+    bottom 23px
+    transition .4s
+    opacity 0
+    .spark2
+    display block
+    height 3px
+    width 3px
+    background-color #d1b82b
+    position absolute
+    right 20px
+    border-radius 50%
+    bottom 80px
+    transition .4s
+    opacity 0
+    .spark3
+    display block
+    height 3px
+    width 3px
+    background-color #d1b82b
+    position absolute
+    left 20px
+    border-radius 50%
+    bottom 80px
+    transition .4s
+    opacity 0
+    .spark4
+    display block
+    height 3px
+    width 3px
+    background-color #d1b82b
+    position absolute
+    left 20px
+    border-radius 50%
+    bottom 20px
+    transition .4s
+    opacity 0
+    .switch input:checked ~ label .bulb
+    left 120px
+    background-color #a7694a
+    box-shadow:
+    inset 0 0 1px 3px #a56758,
+    inset 0 0 6px 8px #6b454f,
+    0 20px 30px -10px rgba(#000,0.4),
+    0 0 30px 50px rgba(#fdb843,.1)
+    .switch input:checked ~ label .bulb > .bulb-center
+    background-color #feed6b
+    box-shadow: 
+    inset 0 0 0 4px #fdec6a,
+    0 0 12px 10px #bca83c,
+    0 0 20px 14px #a1664a
+    &:after
+    background-color #fef401
+    box-shadow 0 0 2px 4px #fdb843
+    .switch input:checked ~ label .bulb > 
+    &.filament-1, &.filament-2
+    &:before, &:after
+      border-color #fef4d5
+    .switch input:checked ~ label .bulb > .sparks 
+    & .spark1
+    height 1px
+    width 1px
+    animation spark1 2s ease-in-out
+    animation-delay: .4s
+    & .spark2
+    height 1px
+    width 1px
+    animation spark2 2.4s ease-in-out
+    animation-delay: .4s
+    & .spark3
+    height 1px
+    width 1px
+    animation spark3 2s ease-in-out
+    animation-delay: .9s
+    & .spark4
+    height 1px
+    width 1px
+    animation spark4 1.7s ease-in-out
+    animation-delay: .9s
+    @keyframes spark1
+    0%
+    right -5px
+    height 1px
+    width 1px
+    opacity 0
+    20%
+    height 3px
+    width 3px
+    right 0px
+    opacity 1
+    30%
+    right -5px
+    opacity 1
+    height 3px
+    width 3px
+    70%
+    height 3px
+    width 3px
+    100%
+    right -60px
+    bottom 40px
+    opacity 0
+    @keyframes spark2
+    0%
+    height 3px
+    width 3px
+    opacity 0
+    30%
+    opacity 1
+    100%
+    right -20px
+    bottom 100px
+    opacity 0
+    @keyframes spark3
+    0%
+    opacity 0
+    30%
+    opacity 1
+    height 2px
+    width 2px
+    100%
+    left 0px
+    bottom 100px
+    opacity 0
+    height 3px
+    width 3px
+    @keyframes spark4
+    0%
+    opacity 0
+    30%
+    opacity 1
+    height 2px
+    width 2px
+    100%
+    left -20px
+    bottom -10px
+    opacity 0
+    height 3px
+    width 3px
+    .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    }
+    .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    }
+    /* relevant portion */
+    button {
+    --border-radius: 24px;
+    --border-width: 8px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+    }
+    button::after {
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    border-radius: var(--border-radius);
+    background-image: conic-gradient(
+    #488cfb,
+    #29dbbc,
+    #ddf505,
+    #ff9f0e,
+    #e440bb,
+    #655adc,
+    #488cfb
+    );
+    mask-image: var(--m-i), var(--m-i);
+    mask-origin: var(--m-o);
+    mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    animation: hue linear 500ms infinite;
+    animation-play-state: paused;
+    }
+    button:hover::after {
+    animation-play-state: running;
+    }
+    @keyframes hue {
+    to {
+    filter: hue-rotate(1turn);
+    }
+    }
+    
+    *,
+    *::before,
+    *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html,
+    body {
+    height: 100%;
+    }
+    body {
+    background-color: #161724;
+    display: grid;
+    place-items: center;
+    }
+    
+    </style>
+    
+<! –– <script>
+<! ––  var w = window.innerWidth;
+<! ––  var h = window.innerHeight;
+<! ––</script>
+<! ––<div class="wrapper"></div>
+
+<script>
+  ('#alertModal').modal(options)
+</script>
+
+
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
+</div>
+
+<div></div>
+
+
+
+<title>Frain - About</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+
+
+<div class="alert" style="margin:0 auto;">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span> 
+  <b> ⓘ  ‌Welcome.<br><br> ↳  This site is not yet fully optimized for mobile. </b><hr> <b> ❦  <u>Discord Status Indicator Meanings:</u>
+<br>
+ ▹  🟢 ＝ Online & Available
+<br>
+ ⅼⅼ   🌙 ＝ Either on mobile, sleeping, or away/unavailable
+<br>
+ ×  ⛔️ ＝ Working/School/Busy, Try Not To Disturb
+<br>
+ ⦿  🔘 ＝ Offline/Entirely Unavailable/Sleeping</b><hr> <b> ✦  I do not handle or respond to server-related questions or ban appeals in my DM’s!!<br><br> ↳  Additionally, harassment of any kind in my DM’s will result in being blocked and reported.</b>
+</div>
+
+<br>
+
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+
+<script>
+  oncontextmenu="return false;"
+  ondragstart="return false;"
+</script>
+
+
+
+
+    <style>
+        .prami-body { fill: #ff69ad; }
+        .prami-left-eye, .prami-right-eye { fill: #461036; }
+        .prami-left-eye-pupil, .prami-right-eye-pupil { stroke: #461036; }
+        .prami-left-cheek, .prami-right-cheek { fill: #e34198; }
+        .prami-mouth { stroke: #461036; }
+    </style>
+  </head>
+  <body>
+    <main class="h-card">
+     
+      <div id="profile-picture-container">
+        <img id="profile-picture" src="https://media.discordapp.net/attachments/1014684779444179025/1288083089247047713/65fb9cc4467709a18d96d5f1ea7e5c24.jpg?ex=66f3e45b&is=66f292db&hm=39a1ef9cfb4a61892534616b14087bc63929df301162da21eb1a97231f53fd3b&=&format=webp" title="Frain" oncontextmenu="return false;" ondragstart="return false;">
+      </div>
+      <h1 class="p-name" id="name">
+        Frain <a id="verification" style="text-decoration: none; border: 0;"><i class="omg-icon omg-verified"></i></a>
+      </h1>
+      <div class="metadata" id="pronouns">
+        <a class="u-url" rel="me" target="_blank">He/Him</a>
+      </div>
+      <div class="metadata p-job-title" id="occupation">
+        <i class="fa-solid fa-fw fa-briefcase"></i> <p>
+          <strong>Software</strong> Developer | 
+          <strong>Backend Developer</strong> | 
+          <strong>JS</strong> Developer
+        </p>
+        <p>
+          Enthusiast of <strong>Technology</strong> and<strong> Innovation</strong> | 
+          Passionate about <span style="text-decoration: underline dotted;">exploring new ideas, learning, and helping others succeed</span>.
+        </p>
+        </a>
+      </div>
+      <div class="metadata p-region" id="location">
+        <i class="fa-solid fa-fw fa-location-dot"></i> Alexandria, Egypt
+      </div>
+      <p>
+        <a class="u-url" rel="me" style="text-decoration: none" href="https://discord.com/users/244870116905320458"><img class="user-drag-none" src="https://discord.c99.nl/widget/theme-3/244870116905320458.png" height="80" width="400" title="Discord Profile Statuses Preview" oncontextmenu="return false;" ondragstart="return false;"></a>
+      </p>
+
+      <hr>
+      <div class="p-note" id="bio">
+        <h3>
+          What I’m Doing RN At A Glance
+        </h3>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span> <img src="https://api.statusbadges.me/badge/status/244870116905320458?style=for-the-badge" alt="Status" oncontextmenu="return false;" ondragstart="return false;">
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-desktop"></i></span> <img src="https://api.statusbadges.me/badge/playing/244870116905320458?style=for-the-badge" alt="Playing" oncontextmenu="return false;" ondragstart="return false;">
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-spotify"></i></span> <a href="https://api.statusbadges.me/openspotify/244870116905320458" class="user-drag-none" target="_blank" rel="noopener"><img src="https://api.statusbadges.me/badge/spotify/244870116905320458?style=for-the-badge" alt="Listen on Spotify" oncontextmenu="return false;" ondragstart="return false;"></a>
+          </li>
+        </ul>
+
+        <hr>
+        <h2>
+          Hi there, my name is Frain!
+        </h2>
+        <h3>
+          Here’s a little bit about me:
+        </h3>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle-info"></i></span>I’m 15 y/o, single, and from Egypt.
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle-info"></i></span>In my free time I enjoy talking to friends, chatting in ONeity and finding issues in software, apps, programs, websites, social media platforms, and more.
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle-info"></i></span>My favorite TV Shows can be found listed below, in order of most recently started to least recently watched.
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle-info"></i></span>You know where you can find me if ya wanna talk!
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-circle-info"></i></span>My social media profiles are listed below.
+          </li>
+        </ul>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-link"></i></span><a class="u-url" rel="me" href="">Here is a permanent link to this page.</a>
+          </li>
+        </ul>
+
+        <hr>
+      </div>
+      <div id="profile-items">
+        <h3>
+          Links
+        </h3>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-github"></i></span><a class="u-url" rel="me" target="_blank" href="https://github.com/xDevFrain">@xDevFrain</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://discord.com/users/244870116905320458">@.5fn (formerly @QUINTO#6027)</a> <iframe class="user-drag-none" title="My Discord Profile" alt="My Discord Profile" width="340" height="192" frameborder="0" sandbox="allow-scripts" src="https://widgets.vendicated.dev/user?id=244870116905320458&amp;theme=light&amp;banner=true&amp;full-banner=true&amp;rounded-corners=false&amp;discord-icon=true&amp;badges=true&amp;guess-nitro=true&amp;background-color=%231B387C&amp;foreground-color=%23FECD5A" oncontextmenu="return false;" ondragstart="return false;"></iframe>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-spotify"></i></span><a class="u-url" rel="me" target="_blank" href="https://stats.fm/frain">My Spotify Stats (stats.fm)</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-spotify"></i></span><a class="u-url" rel="me" target="_blank" href="https://open.spotify.com/playlist/2bpade7fhT61JjQOJxAGvA">My Playlist</a> <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2bpade7fhT61JjQOJxAGvA?utm_source=generator&amp;theme=0" width="100%" height="400" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-tv"></i></span><a class="u-url" rel="me" target="_blank" href="https://www.google.com/search?q=breaking+bad&sca_esv=44a81bd77c38e347&sca_upv=1&sxsrf=ADLYWIKw5cvrhgtShchJhgZ5PFpShHEPtg%3A1727208887887&source=hp&ei=tx3zZtG9NLWHhbIP4Lap0QI&iflsig=AL9hbdgAAAAAZvMrxz7TzDocJ_uKeRo74jASHv3lSztB&gs_ssp=eJzj4tLP1TcwTjE2qbAwYPTiSSpKTczOzEtXSEpMAQBhJQfP&oq=Braki&gs_lp=Egdnd3Mtd2l6IgVCcmFraSoCCAIyBxAjGLECGCcyBxAjGLECGCcyEBAuGIAEGLEDGEMYgwEYigUyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyChAuGIAEGAoYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywFI2xlQAFivC3AAeACQAQCYAckBoAHoBqoBBTAuNC4xuAEByAEA-AEBmAIFoAL-BsICChAuGIAEGCcYigXCAgoQIxiABBgnGIoFwgILEC4YgAQY0QMYxwHCAgoQLhiABBhDGIoFwgILEAAYgAQYsQMYgwHCAgsQLhiABBixAxiDAcICBRAAGIAEwgIQEC4YgAQYsQMYQxjUAhiKBcICCBAAGIAEGLEDwgIIEC4YgAQYsQPCAg4QLhiABBixAxjRAxjHAcICChAAGIAEGEMYigXCAg0QLhiABBixAxiDARgKmAMAkgcFMC40LjGgB-dO&sclient=gws-wiz">Breaking Bad</a> (Amc)
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-tv"></i></span><a class="u-url" rel="me" target="_blank" href="https://www.google.com/search?q=ted+lasso&sca_esv=11b9b55d5edba133&sca_upv=1&hl=en-US&sxsrf=ADLYWIL7MNpSAYSqyzZq_09HxLz2mBepsQ%3A1727205463271&ei=VxDzZqSNEOSKkdUP1vXg-AY&gs_ssp=eJzj4tVP1zc0zMqtyDbPrsgxYPTiLElNUchJLC7OBwBuYgiC&oq=Ted+%3B&gs_lp=Egxnd3Mtd2l6LXNlcnAiBVRlZCA7KgIIADINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEC4YgAQYQxiKBTIQEC4YgAQYsQMYQxiDARiKBTIKEC4YgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTIKEC4YgAQYQxiKBTIKEC4YgAQYFBiHAjIIEAAYgAQYsQMyCBAuGIAEGLEDMigQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYD2AEBSPoWUPIGWMEPcAF4AZABAJgBngGgAfUFqgEDMC41uAEDyAEA-AEBmAIGoAKpBsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBAcICChAjGIAEGCcYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgINEAAYgAQYsQMYQxiKBcICHBAuGIAEGLEDGEMYigUYlwUY3AQY3gQY4ATYAQGYAwCIBgGQBhK6BgYIARABGAmSBwMxLjWgB4iqAQ&sclient=gws-wiz-serp">Money Heist</a> (Netflix)
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-tv"></i></span><a class="u-url" rel="me" target="_blank" href="https://www.google.com/search?q=ted+lasso&sca_esv=11b9b55d5edba133&sca_upv=1&hl=en-US&sxsrf=ADLYWIL7MNpSAYSqyzZq_09HxLz2mBepsQ%3A1727205463271&ei=VxDzZqSNEOSKkdUP1vXg-AY&gs_ssp=eJzj4tVP1zc0zMqtyDbPrsgxYPTiLElNUchJLC7OBwBuYgiC&oq=Ted+%3B&gs_lp=Egxnd3Mtd2l6LXNlcnAiBVRlZCA7KgIIADINEC4YgAQYsQMYQxiKBTIKEAAYgAQYQxiKBTIKEC4YgAQYQxiKBTIQEC4YgAQYsQMYQxiDARiKBTIKEC4YgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTIKEC4YgAQYQxiKBTIKEC4YgAQYFBiHAjIIEAAYgAQYsQMyCBAuGIAEGLEDMigQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYD2AEBSPoWUPIGWMEPcAF4AZABAJgBngGgAfUFqgEDMC41uAEDyAEA-AEBmAIGoAKpBsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjgBNgBAcICChAjGIAEGCcYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgINEAAYgAQYsQMYQxiKBcICHBAuGIAEGLEDGEMYigUYlwUY3AQY3gQY4ATYAQGYAwCIBgGQBhK6BgYIARABGAmSBwMxLjWgB4iqAQ&sclient=gws-wiz-serp">Ted Lasso</a> (Apple TV+)
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-tv"></i></span><a class="u-url" rel="me" target="_blank" href="https://www.google.com/search?q=you+serie&sca_esv=11b9b55d5edba133&sca_upv=1&hl=en-US&sxsrf=ADLYWIJAYOmdkix1dKf1ilFJSfa1o02K5Q%3A1727205501694&ei=fRDzZvqHKuzikdUPhcaUgQo&gs_ssp=eJzj4tVP1zc0TIkvN8szLLIwYPTirMwvVShOLcpMBQBm2ggR&oq=You+Ser&gs_lp=Egxnd3Mtd2l6LXNlcnAiB1lvdSBTZXIqAggAMgoQLhiABBgnGIoFMgoQABiABBhDGIoFMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEC4YgAQYywEyJhAuGIAEGIoFGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYDGPcD2AEBSM0XUMYEWKQOcAF4AZABAJgBowGgAdsEqgEDMC40uAEByAEA-AEBmAIFoAKGBcICBxAuGLADGCfCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICExAuGIAEGLADGEMYyAMYigXYAQHCAgoQLhiABBhDGIoFwgINEAAYgAQYsQMYQxiKBcICFRAuGIAEGLEDGNEDGEMYxwEYigUYCsICBRAuGIAEwgIIEC4YgAQYsQPCAhcQLhiABBiKBRiXBRjcBBjeBBjgBNgBAZgDAIgGAZAGFLoGBggBEAEYCJIHAzEuNKAHjUU&sclient=gws-wiz-serp">You</a> (Netflix)
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-tv"></i></span><a class="u-url" rel="me" target="_blank" href="https://www.google.com/search?q=berlin+series&sca_esv=44a81bd77c38e347&sca_upv=1&sxsrf=ADLYWIIzPk4Ovba7ZemftCm6_ejZ08thaw%3A1727209843088&source=hp&ei=cyHzZp6cA-CqkdUPz7HR2AY&iflsig=AL9hbdgAAAAAZvMvg13oTE2qcWr7aVDj8kf2pzaIr85v&gs_ssp=eJzj4tVP1zc0LE7PLkpLzzAwYPTiTUotysnMUyhOLcpMLQYAk0MKCg&oq=Berli&gs_lp=Egdnd3Mtd2l6IgVCZXJsaSoCCAIyCBAAGIAEGMsBMg4QLhiABBjRAxjHARjLATIIEC4YgAQYywEyCBAuGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEC4YgAQYywEyCBAAGIAEGMsBSKUrUMYIWN0YcAN4AJABAJgB3gGgAe8JqgEFMC41LjK4AQHIAQD4AQGYAgqgApcKqAIKwgIHECMYJxjqAsICBxAuGCcY6gLCAgoQIxiABBgnGIoFwgILEC4YgAQYsQMYgwHCAggQABiABBixA8ICBRAAGIAEwgIOEAAYgAQYsQMYgwEYigXCAgUQLhiABMICCBAuGIAEGLEDwgILEAAYgAQYsQMYgwHCAgoQLhiABBgnGIoFwgIKEC4YgAQYQxiKBcICCxAuGIAEGNEDGMcBwgIREC4YgAQYsQMY0QMY1AIYxwHCAhAQLhiABBjRAxhDGMcBGIoFwgIOEC4YgAQYsQMYgwEY1ALCAhEQLhiABBixAxjRAxiDARjHAcICDhAuGIAEGLEDGNEDGMcBmAMJkgcFMy41LjKgB41v&sclient=gws-wiz">Berlin</a> (Netflix)
+          </li>
+        </ul>
+
+        <hr>
+        <h3>
+          My Roles on Discord
+        </h3>
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span> Owner @ ONeity Community <a style="text-decoration: none;" href="https://discord.gg/6w9taHqemk" class="user-drag-none" target="_blank" rel="server-invite-link"><img src="https://invidget.switchblade.xyz/6w9taHqemk" alt="Join the “ONeity Community” Discord Server!" oncontextmenu="return false;" ondragstart="return false;"></a>
+          </li>
+          </li>
+        </ul>
+
+        <hr>
+        <h4>
+          [My Shapes!] Here are Music Artist AI Chatbot Discord Bots I put together while bored, (feel free to use any of 'em)
+        </h4>
+
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Megan-Thee-Stallion-Discord-Chatbot">Megan Thee Stallion</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Dua-Lipa-Discord-Chatbot">Dua Lipa</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Taylor-Swift-Discord-Chatbot">Taylor Swift</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Kim-Petras-Discord-Chatbot">Kim Petras</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Bebe-Rexha-Discord-Chatbot">Bebe Rexha</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Ed-Sheeran-Discord-Chatbot">Ed Sheeran</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Post-Malone-Discord-Chatbot">Post Malone</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" target="_blank" href="https://austinn.url.lol/Doja-Cat-Discord-Chatbot">Doja Cat</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-link"></i></span>To use any of the above, you must have the “Administrator” permission in the server you are inviting it to, or have someone with the “Administrator” permission run the “/activate” slash command in the channel you want to use it in. Then, just start speaking to it! <!-- -  Courtesy of [Shapes, Inc./Circle Labs](https://austinn.url.lol/Shapes-Inc-Website-MyShapes-CourtesyRef)! -->
+          </li>
+        </ul>
+
+        <hr>
+        <p>
+          *Please note that all hyperlinks on this page will open in a new tab if your browser allows it.
+        </p>
+    </main>
+  </body>
+</html>
