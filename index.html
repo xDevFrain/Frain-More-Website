@@ -63,7 +63,7 @@
       left: 0;
       z-index: 1000;
       width: 100%;
-      background-color: rgba(0, 0, 0, 0.95);
+      background-color: rgba(0, 0, 0, 0.95) !important;
       backdrop-filter: blur(15px);
       -webkit-backdrop-filter: blur(15px);
       box-shadow: 0 3px 25px rgba(0, 0, 0, 0.7);
@@ -81,6 +81,12 @@
       width: 0%;
       transition: width 0.3s cubic-bezier(0.19, 1, 0.22, 1);
       box-shadow: 0 0 10px rgba(255,255,255,0.5);
+      animation: progressLeft 0.3s ease;
+    }
+
+    @keyframes progressLeft {
+      from { width: 0%; left: 0; }
+      to { width: var(--progress-width); left: 0; }
     }
 
     .container {
@@ -1920,7 +1926,7 @@
       document.querySelector('.theme-toggle').addEventListener('click', function() {
         const root = document.documentElement;
         const currentBg = getComputedStyle(root).getPropertyValue('--dark-bg');
-        
+
         if(currentBg.trim() === '#000000') {
           root.style.setProperty('--dark-bg', '#ffffff');
           root.style.setProperty('--darker-bg', '#ffffff');
